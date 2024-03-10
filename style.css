@@ -1,0 +1,180 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+img{
+    width: 400px;
+}
+
+p{
+    color: lightgrey;
+    font-size:small;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+  }
+  ul{
+    list-style-type: none;
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+  }
+.menu{
+    display: flex;
+
+}
+.logo{
+    max-width: 30px;
+    max-height: 30px;
+    margin-top: 15px;
+}
+
+  .right-links{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 15px;
+   
+  }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color:#1F2937;
+    color: white;
+    padding-right: 15vh;
+    padding-left: 15vh;
+    padding-bottom: 5vh;
+}
+
+.header-container{
+    display: flex;
+    gap: 15px;
+}
+
+.header-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 15px;
+}
+
+.signup{
+   
+    background-color:#3882F6;
+    padding: 12px 28px;
+
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.information-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.looks{
+    border: 5px solid;
+    border-color:#3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 8%;
+    object-fit: cover
+
+
+}
+
+.text{
+    font-size: smaller;
+}
+
+.title{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.quote{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    color:#1F2937;
+    padding: 3em 6em 3em;
+    background-color:#E5E7EB;
+    gap:1em;
+}
+.box{ 
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+.name{
+margin-left: auto;
+font-weight: bold;
+font-size: 28px;
+padding-right:3em;
+}
+
+.cta{
+    padding: 6em;
+}
+.cta-box{
+    display:flex;
+    flex-direction: row;
+    background: #3882F6;
+    border-radius: 10px;
+    padding:3em;
+    gap: 40px;
+}
+.cta-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-cta{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.body-cta{
+    font-size:small;
+    color: lightgray;
+}
+
+.singup2{
+    min-width: 150px;
+    max-height: 50px;
+    background-color: #3882F6;
+    border: #E5E7EB solid;
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.footer{
+    background:#1F2937;
+    color:white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
